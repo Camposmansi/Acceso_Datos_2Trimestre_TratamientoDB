@@ -1,0 +1,16 @@
+delimiter //
+CREATE or replace PROCEDURE subir_salario(dept int, subida int)
+update `empleados` set `salario` = `salario` + subida where `dept_no`=dept;
+END
+//
+delimiter ;
+
+
+
+delimiter //
+CREATE OR REPLACE PROCEDURE mostrar_info(dept int)
+BEGIN
+SELECT COUNT(*) as empleados, AVG(`salario`) as salario from `empleados` where `dept_no`=dept;
+END
+//
+delimiter ;
