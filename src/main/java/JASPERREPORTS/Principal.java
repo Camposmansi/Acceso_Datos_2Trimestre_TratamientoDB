@@ -1,22 +1,23 @@
 package JASPERREPORTS;
 
+import net.sf.jasperreports.engine.*;
+import net.sf.jasperreports.view.JasperViewer;
 import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.sf.jasperreports.engine.*;
-import net.sf.jasperreports.view.JasperViewer;
-
-
 public class Principal {
-    static String ruta = "D:\\Clase\\2-DAM\\Acceso a Datos\\2Trimestre\\AccesoDatos2T\\src\\main\\java\\JASPERREPORTS\\";
+    static Connection conexion = null;
+
     public static void main(String[] args) {
-        String reportSource = ruta + "plantilla\\plantilla.jrxml";
-        String reportHTML = ruta + "informes\\Informe.html";
-        String reportPDF = ruta + "informes\\Informe.pdf";
-        String reportXML = ruta + "informes\\Informe.xml";
+        //Conectamos con la DB
+        ConexionDB msql = new ConexionDB();
+        conexion = msql.conexion();
+
+        String reportSource = "./src/main/java/JASPERREPORTS/plantilla/plantilla.jrxml";
+        String reportHTML = "./src/main/java/JASPERREPORTS/informes/Informe.html";
+        String reportPDF = "./src/main/java/JASPERREPORTS/informes/Informe.pdf";
+        String reportXML = "./src/main/java/JASPERREPORTS/informes/Informe.xml";
 
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("titulo", "LISTADO DE DEPARTAMENTOS.");
@@ -25,12 +26,8 @@ public class Principal {
         try {
             JasperReport jasperReport =
                     JasperCompileManager.compileReport(reportSource);
-
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/actividad30", "root", "");
-
             JasperPrint MiInforme =
-                    JasperFillManager.fillReport(jasperReport, params, conn);
+                    JasperFillManager.fillReport(jasperReport, params, conexion);
             //Visualizar en pantalla
             JasperViewer.viewReport(MiInforme);
             //Convertir a HTML
@@ -40,15 +37,10 @@ public class Principal {
             //Convertir a XML
             JasperExportManager.exportReportToXmlFile(MiInforme, reportXML, false);
             System.out.println("Archivos Creados");
-
-
         } catch (JRException ex) {
-            System.out.println("Error de jasper");
+            System.err.println("Error de jasper");
             ex.printStackTrace();
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
         }
+
     }
 }

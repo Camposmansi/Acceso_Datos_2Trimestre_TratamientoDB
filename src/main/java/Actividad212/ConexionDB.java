@@ -14,7 +14,7 @@ public class ConexionDB {
             String jdbc = "jdbc";
             String db = "mysql";
             String servidorDB = "localhost" + "/";
-            String rutaDB = servidorDB + "poo-consultorio";
+            String rutaDB = servidorDB + "Actividad30";
             String usuarioDB = "root";
             String passwordDB = "";
 
@@ -24,7 +24,7 @@ public class ConexionDB {
             System.out.println("Conexion con MySQL establecida\n");
             //JOptionPane.showMessageDialog(null, "Se ha conectado a la DB", "Conexion", JOptionPane.INFORMATION_MESSAGE);
         }catch (ClassNotFoundException | SQLException e){
-            JOptionPane.showMessageDialog(null, "Error en Base de datos\n\n" + e, "Conexion", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Error en Base de datos\n\n" + e.getMessage(), "Conexion", JOptionPane.ERROR_MESSAGE);
         }
         return conexion;
     }

@@ -16,7 +16,7 @@
 		</text>
 		<text textAlignment="Center" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="37e13a25-015e-4bc7-af7c-cbb332ef4dbb" x="20" y="70" width="500" height="20" origin="0" srcId="2" printId="1"/>
-			<textContent><![CDATA[Realizado por: CAMPOS on Tue Jan 17 17:21:11 CET 2023]]></textContent>
+			<textContent><![CDATA[Realizado por: CAMPOS on Mon Jan 23 00:49:26 CET 2023]]></textContent>
 		</text>
 		<rectangle>
 			<reportElement uuid="7353a8a6-a057-4520-8610-e46d8971299e" x="20" y="90" width="500" height="25" origin="1" srcId="3" printId="1"/>

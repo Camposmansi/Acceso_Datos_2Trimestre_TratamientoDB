@@ -14,3 +14,14 @@ SELECT COUNT(*) as empleados, AVG(`salario`) as salario from `empleados` where `
 END
 //
 delimiter ;
+
+
+delimiter //
+
+CREATE OR REPLACE PROCEDURE mostrarInfo(d int, OUT n_empleados int, OUT salario_medio float)
+BEGIN
+SELECT COUNT(*) INTO n_empleados FROM empleados where dept_no=d;
+SELECT AVG(salario) INTO salario_medio FROM empleados where dept_no=d;
+
+END//
+delimiter ;

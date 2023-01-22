@@ -29,7 +29,8 @@ public class Procsubida {
 
             cs.close();
             conexion.close();
-        } catch (SQLException e){e.getMessage();}
+        } catch (SQLException e){
+            System.err.println(e.getMessage());}
     }
 
 
