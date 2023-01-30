@@ -14,13 +14,13 @@ public class Principal {
         ConexionDB msql = new ConexionDB();
         conexion = msql.conexion();
 
-        String reportSource = "./src/main/java/JASPERREPORTS/plantilla/plantilla.jrxml";
+        String reportSource = "./src/main/java/JASPERREPORTS/plantilla/plantilla2.jrxml";
         String reportHTML = "./src/main/java/JASPERREPORTS/informes/Informe.html";
         String reportPDF = "./src/main/java/JASPERREPORTS/informes/Informe.pdf";
         String reportXML = "./src/main/java/JASPERREPORTS/informes/Informe.xml";
 
         Map<String, Object> params = new HashMap<String, Object>();
-        params.put("titulo", "LISTADO DE DEPARTAMENTOS.");
+        params.put("titulo", "RESMEN DATOS DE DEPARTAMENTOS..");
         params.put("autor", "CAMPOS");
         params.put("fecha", (new java.util.Date()).toString());
         try {

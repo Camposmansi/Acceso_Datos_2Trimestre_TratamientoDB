@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8214f992-7d89-418c-afc3-bf029847218b" name="Changes" comment="Actualización">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Actividad212/Actividad212B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/PrincipalPDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/plantilla/plantillaB.jrxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad212/ConexionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad212/ConexionDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad212/Procsubida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad212/Procsubida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Actividad212/procedimientos" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Actividad212/procedimientos" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/ConexionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/ConexionDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/informes/Informe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JASPERREPORTS/informes/Informe.html" afterDir="false" />
@@ -40,34 +38,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Clase/2-DAM/Acceso a Datos/2Trimestre",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3770115",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Clase/2-DAM/Acceso a Datos/2Trimestre/AccesoDatos2T/src/main/java/JASPERREPORTS/plantilla&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3770115&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Clase\2-DAM\Acceso a Datos\2Trimestre\AccesoDatos2T\src\main\java\JASPERREPORTS\plantilla" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Clase\2-DAM\Acceso a Datos\2Trimestre\AccesoDatos2T\src\main\java\Actividad212" />
       <recent name="D:\Clase\2-DAM\Acceso a Datos\2Trimestre\AccesoDatos2T\src\main\java" />
@@ -76,7 +77,7 @@
       <recent name="JASPERREPORTS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Principal">
+  <component name="RunManager" selected="Application.PrincipalPDF">
     <configuration name="Actividad212B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Actividad212.Actividad212B" />
       <module name="AccesoDatos2T" />
@@ -125,28 +126,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Procsubida" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Actividad212.Procsubida" />
+    <configuration name="PrincipalPDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JASPERREPORTS.PrincipalPDF" />
       <module name="AccesoDatos2T" />
-      <option name="PROGRAM_PARAMETERS" value="30 100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JASPERREPORTS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PrincipalPDF" />
       <item itemvalue="Application.Actividad212B2" />
       <item itemvalue="Application.Actividad29" />
       <item itemvalue="Application.Principal" />
       <item itemvalue="Application.Actividad212B" />
-      <item itemvalue="Application.Procsubida" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalPDF" />
         <item itemvalue="Application.Principal" />
         <item itemvalue="Application.Actividad212B2" />
         <item itemvalue="Application.Actividad212B" />
         <item itemvalue="Application.Actividad29" />
-        <item itemvalue="Application.Procsubida" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +183,9 @@
       <workItem from="1674168109695" duration="201000" />
       <workItem from="1674169181019" duration="33000" />
       <workItem from="1674323244791" duration="2511000" />
+      <workItem from="1674431285163" duration="3347000" />
+      <workItem from="1674496109555" duration="5306000" />
+      <workItem from="1675119507979" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="Actualización">
       <created>1674041761091</created>
@@ -192,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674041769472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Actualización">
+      <created>1674431502813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674431502813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
