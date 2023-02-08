@@ -14,7 +14,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ConexionDB {
-    //public static Connection conn;
     static Connection conexion;
     public Connection conexion(){
         try {
@@ -61,8 +60,6 @@ public class ConexionDB {
     }
 
     public void generateReport(String reportSource, String tituloPDF, String autorPDF) {
-        //String reportSource = "src/Informes/I_usuarios.jrxml";
-        //String reportPDF = "Informe.pdf";
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("titulo", tituloPDF);
         params.put("autor", autorPDF);
